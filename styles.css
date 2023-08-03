@@ -9,9 +9,25 @@
   body {
     font-family: "Roboto", sans-serif;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;
   }
+
+ .bg {
+   flex-direction: column;
+   background: url('https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg') no-repeat center center/cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: calc(100vw + 60px);
+   height: calc(100vh + 60px);
+   z-index: -1;
+   filter: blur(0px);
+ }
+
+ .loading-text {
+   font-size: 50px;
+   color: #fff;
+ }
