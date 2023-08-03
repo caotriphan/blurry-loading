@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
   * {
     padding: 0;
@@ -7,7 +7,7 @@
   }
 
   body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,15 +16,14 @@
   }
 
  .bg {
-   flex-direction: column;
    background: url('https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg') no-repeat center center/cover;
    position: absolute;
-   top: 0;
-   left: 0;
+  top: -30px;
+    left: -30px;
    width: calc(100vw + 60px);
    height: calc(100vh + 60px);
    z-index: -1;
-   filter: blur(0px);
+  filter: blur(100px);
  }
 
  .loading-text {
